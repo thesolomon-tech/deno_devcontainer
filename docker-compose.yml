@@ -1,0 +1,17 @@
+# services:
+#   chroma:
+#     image: ubuntu:latest
+#     container_name: ubuntu_development
+#     networks:
+#       - dev_network
+#     volumes:
+#       - ubuntu_development:/projects
+#     user: '1001:1001'
+#     command: tail -f /dev/null
+#     environment:
+#       ANONYMIZED_TELEMETRY: "False"
+
+# networks:
+#   dev_network:
+# volumes:
+#   ubuntu_development: 
